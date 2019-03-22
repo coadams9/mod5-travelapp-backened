@@ -1,4 +1,6 @@
 class ApplicationController < ActionController::API
+  helper_method :current_user
+
 
   def current_user
     encoded_token = request.headers['Access-Token']

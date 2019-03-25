@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::API
-  # helper_method :current_user
+  include ActionController::Helpers
+  helper_method :current_user
 
 
   def current_user

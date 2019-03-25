@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2019_03_19_162252) do
   enable_extension "plpgsql"
 
   create_table "trips", force: :cascade do |t|
+    t.integer "user_id"
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

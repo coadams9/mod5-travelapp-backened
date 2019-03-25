@@ -17,7 +17,15 @@ ActiveRecord::Schema.define(version: 2019_03_19_162252) do
 
   create_table "trips", force: :cascade do |t|
     t.integer "user_id"
-    t.string "name"
+    t.string "leavingat"
+    t.string "arrivingat"
+    t.string "arvdisplay"
+    t.string "dptdisplay"
+    t.string "fltPrc"
+    t.string "hotelname"
+    t.string "hotelprice"
+    t.string "hotelphone"
+    t.string "hoteladdress"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

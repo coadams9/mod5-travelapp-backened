@@ -12,7 +12,7 @@ class TripsController < ApplicationController
     if @trip.save
       render json: @trip, status: :created
     else
-      render json: { erros: @trip.trips.erros.full_messages }, status: :unprocessable_entity
+      render json: { errors: @trip.errors.full_messages }, status: :unprocessable_entity
     end
   end
 

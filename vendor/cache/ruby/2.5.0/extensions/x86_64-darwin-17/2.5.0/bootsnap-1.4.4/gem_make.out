@@ -1,0 +1,15 @@
+current directory: /Users/coryadams/flatiron/mod5/travel_app/backend/vendor/cache/ruby/2.5.0/gems/bootsnap-1.4.4/ext/bootsnap
+/Users/coryadams/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20190826-37746-xp2pr8.rb extconf.rb
+creating Makefile
+
+current directory: /Users/coryadams/flatiron/mod5/travel_app/backend/vendor/cache/ruby/2.5.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/coryadams/flatiron/mod5/travel_app/backend/vendor/cache/ruby/2.5.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/coryadams/flatiron/mod5/travel_app/backend/vendor/cache/ruby/2.5.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20190826-37746-1bp0j96/bootsnap
